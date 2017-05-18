@@ -3,3 +3,93 @@
     max-width:100%;
     height: 100vh;
 }
+
+.block {
+  height: 33.3vh;
+  display: inline-block;
+  transition: all 1s ease;
+}
+
+.block:hover>.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  z-index: 100;
+  display: block;
+}
+
+.info {
+  display: none;
+  position: absolute;
+  text-align: center;
+  padding-top: 50px;
+  color: #fff;
+  font-family: "Futura", "Didact Gothic";
+}
+
+.btn {
+  border-radius: 0px;
+  border: none;
+}
+
+#pic1,
+#pic2,
+#pic3,
+#pic4,
+#pic5,
+#pic6,
+#pic7,
+#pic8,
+#pic9 {
+  display: block;
+}
+
+#pic1 {
+  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-size: cover !important;
+}
+
+#pic2 {
+  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-size: cover !important;
+}
+
+#pic3 {
+  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-size: cover !important;
+}
+
+#pic4 {
+  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-size: cover !important;
+}
+
+#pic5 {
+  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-size: cover !important;
+}
+
+#pic6 {
+  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-size: cover !important;
+}
+
+#pic7 {
+  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-size: cover !important;
+}
+
+#pic8 {
+  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-size: cover !important;
+}
+
+#pic9 {
+  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-size: cover !important;
+}
