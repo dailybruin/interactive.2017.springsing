@@ -57,6 +57,10 @@ html{
   font-family: "Futura", "Didact Gothic";
 }
 
+#judges .info, #company .info {
+  padding-top: 40vh;
+}
+
 #navbar{
   position: fixed !important;
   min-width:100%;
@@ -81,12 +85,12 @@ html{
 
 
 /* ============================= PICS GO HERE =============================*/
-/* PROBLEM WITH PICTURE if it isn't rectangle shaped... */
 
 #judges {
   display: block;
-  background-image: url("https://ballinyourcourt.files.wordpress.com/2013/08/tentips.jpg");
-  background-size: cover;  /*TODO: dont use cover??*/
+  background-image: url("/../img/judges.jpg");
+  background-size: cover;
+  background-position: center;
   background-repeat:no-repeat;
   min-height: 100vh;
   min-width: 50%;
@@ -95,7 +99,8 @@ html{
 #company {
   display: block;
   background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/18491765_1484519591579379_8031483925442164008_o.jpg?oh=4fa4dc255206768cf8bf13415e99c587&oe=59A5A328");
-  background-size: cover;  /*TODO: dont use cover??*/
+  background-size: cover; 
+  background-position: center;
   background-repeat:no-repeat;
   min-height: 100vh;
   min-width: 50%;
