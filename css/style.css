@@ -115,3 +115,10 @@
     margin: auto;
     max-height: 50vh;
 }
+
+.float_left {
+	float: left;
+	width: 300px;
+	padding: 13px;
+	margin: 10px 15px 0px -200px;
+}
