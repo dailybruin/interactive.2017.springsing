@@ -49,6 +49,10 @@
   font-family: "Futura", "Didact Gothic";
 }
 
+#judges .info, #company .info {
+  padding-top: 40vh;
+}
+
 #navbar{
   position: fixed !important;
   min-width:100%;
