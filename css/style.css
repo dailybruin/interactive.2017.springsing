@@ -2,6 +2,14 @@
 >>> GENERAL LAYOUT <<<
 =================== */
 
+html{
+    overflow-x: hidden;
+}
+
+.no_margin {
+    margin: 0px;
+}
+
 .full_screen {
     width: 100vw;
     max-width:100%;
