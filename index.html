@@ -78,7 +78,7 @@
             {{#each .}}
             <!-- Modal -->
             <div class="modal{{@index}} modal fade" role="dialog">
-                <div class="modal-dialog">
+                <div class="modal-dialog modal_width">
                     <!-- Modal content-->
                     <div class="modal-content">
                         <div class="modal-header">
@@ -86,6 +86,8 @@
                             <h4 class="modal-title">{{this.gsx$singername.$t}}</h4>
                         </div>
                         <div class="modal-body">
+                            <h1>{{this.gsx$singername.$t}}</h1>
+                            <img class="modal_article_img" src="{{this.gsx$photourl.$t}}">
                             {{{this.gsx$articlecontent.$t}}}
                         </div>
                         <div class="modal-footer">
