@@ -1,7 +1,19 @@
+/* ===================
+>>> GENERAL LAYOUT <<<
+=================== */
+
 .full_screen {
     width: 100vw;
     max-width:100%;
     height: 100vh;
+}
+
+/* ===================
+>>>> GRID LAYOUT <<<<
+=================== */
+
+.modal_width {
+    width: 80%;
 }
 
 .block {
@@ -35,27 +47,6 @@
 .btn {
   border-radius: 0px;
   border: none;
-}
-
-.video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
-	margin: auto;
-}
-
-.video-container iframe, .video-container object, .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-}
-
-.row.videos {
-	margin:0px;
 }
 
 #pic1,
@@ -115,6 +106,41 @@
   background-size: cover !important;
 }
 
+/* ==================
+>>> MODAL LAYOUT <<<
+=================== */
+
+.modal_article_img {
+    display: block;
+    margin: auto;
+    max-height: 50vh;
+}
+
+/* =============
+>>>> VIDEO <<<<
+============== */
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+	margin: auto;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.row.videos {
+	margin:0px;
+}
+
 @media screen and (min-width: 1000px) {
   .video-container {
     width:969px;
@@ -122,4 +148,3 @@
     padding-bottom: 0;
     padding-top: 0;
   }
-}
