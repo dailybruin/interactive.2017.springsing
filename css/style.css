@@ -1,5 +1,82 @@
 .full_screen {
     width: 100vw;
     max-width:100%;
-    height: 100vh;
+    min-height: 100vh;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.block {
+  height: 33.3vh;
+  display: inline-block;
+  transition: all 1s ease;
+}
+
+.block:hover>.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  z-index: 100;
+  display: block;
+}
+
+.info {
+  display: none;
+  position: absolute;
+  text-align: center;
+  padding-top: 40vh;
+  color: #fff;
+  font-family: "Futura", "Didact Gothic";
+}
+
+
+#navbar{
+  position: fixed !important;
+  min-width:100%;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding-top: 2px;
+  min-height: 25px;
+  z-index: 200;
+}
+
+#navbar a {
+  display: inline;
+  padding-right: 30px;
+  color: white;
+  font-family: "Futura", "Didact Gothic";
+}
+
+#navbar a:hover {
+  text-decoration: none;
+  color: #c3cbd8;
+}
+
+
+/* ============================= PICS GO HERE =============================*/
+/* PROBLEM WITH PICTURE if it isn't rectangle shaped... */
+
+#judges {
+  display: block;
+  background-image: url("https://ballinyourcourt.files.wordpress.com/2013/08/tentips.jpg");
+  background-size: cover;  /*TODO: dont use cover??*/
+  background-repeat:no-repeat;
+  min-height: 100vh;
+  min-width: 50%;
+}
+
+#company {
+  display: block;
+  background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/18491765_1484519591579379_8031483925442164008_o.jpg?oh=4fa4dc255206768cf8bf13415e99c587&oe=59A5A328");
+  background-size: cover;  /*TODO: dont use cover??*/
+  background-repeat:no-repeat;
+  min-height: 100vh;
+  min-width: 50%;
 }
