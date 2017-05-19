@@ -82,9 +82,15 @@ body {
 
 #navbar a {
   display: inline;
-  padding-right: 60px;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  text-align: center;
   color: white;
   font-family: "Futura", "Didact Gothic";
+}
+
+#navbar-logo{
+
 }
 
 #navbar a:hover {
