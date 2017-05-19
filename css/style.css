@@ -146,7 +146,7 @@ body {
 
 #company {
   display: block;
-  background-image: url("https://lh3.google.com/u/0/d/0B8Gqj4nBG7RTZXVRS01aUERqUFk=w1136-h679-iv1");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhQV9qdHo2ME5DaVk=w1136-h679-iv1");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -306,6 +306,12 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 0px;
+}
+
+.graphic_img {
+  max-height: 80vh;
+  display: block;
+  margin: auto;
 }
 
 /* w x h = 1 x .56206 */
