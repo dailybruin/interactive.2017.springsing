@@ -2,10 +2,22 @@
 >>> GENERAL LAYOUT <<<
 =================== */
 
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: black;
+}
+
+.no_margin {
+  margin: 0px;
+}
+
 .full_screen {
-    width: 100vw;
-    max-width:100%;
-    min-height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  min-height: 100vh;
 }
 
 .container-fluid {
@@ -13,13 +25,10 @@
   height: 100vh;
 }
 
+
 /* ===================
 >>>> GRID LAYOUT <<<<
 =================== */
-
-.modal_width {
-    width: 80%;
-}
 
 .block {
   height: 33.3vh;
@@ -49,13 +58,21 @@
   font-family: "Futura", "Didact Gothic";
 }
 
-#judges .info, #company .info {
+#judges .info,
+#company .info {
   padding-top: 40vh;
 }
 
-#navbar{
+.singer_info {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbar {
   position: fixed !important;
-  min-width:100%;
+  min-width: 100%;
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding-top: 2px;
@@ -65,9 +82,15 @@
 
 #navbar a {
   display: inline;
-  padding-right: 60px;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  text-align: center;
   color: white;
   font-family: "Futura", "Didact Gothic";
+}
+
+#navbar-logo{
+
 }
 
 #navbar a:hover {
@@ -77,13 +100,25 @@
 
 
 /* ============================= PICS GO HERE =============================*/
+.stroketext {
+  font-family: "Verdana";
+  font-style: italic;
+
+  background-color: black;
+
+  text-align: center;
+  font-size: 4em;
+  -webkit-text-stroke: 2px white;
+  -webkit-text-fill-color: #47d4ff;
+
+}
 
 #judges {
   display: block;
   background-image: url("../img/judges.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   min-height: 100vh;
   min-width: 50%;
 }
@@ -93,7 +128,7 @@
   background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/18491765_1484519591579379_8031483925442164008_o.jpg?oh=4fa4dc255206768cf8bf13415e99c587&oe=59A5A328");
   background-size: cover;
   background-position: center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   min-height: 100vh;
   min-width: 50%;
 }
@@ -107,7 +142,6 @@
 #pic2,
 #pic3,
 #pic4,
-#pic5,
 #pic6,
 #pic7,
 #pic8,
@@ -116,31 +150,34 @@
 }
 
 #pic1 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhRmprUWktWmgxZXM=w1136-h723-iv1");
   background-size: cover !important;
+  background-position: 0% 20%;
 }
 
 #pic2 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhZl9sX2swRUNZMm8=w1136-h723-iv1");
   background-size: cover !important;
+  background-position: 0% 20%;
 }
 
 #pic3 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhYkI5SjVUQkFtWGM=w1136-h723-iv1");
   background-size: cover !important;
 }
 
 #pic4 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhOXlHbVpwbGp3ZVk=w1136-h723-iv1");
   background-size: cover !important;
 }
 
 #pic5 {
-  background-color: black;
+  background-image: url("../img/artists.svg");
+  background-position: center;
   background-size: cover !important;
 }
 
-#pic5 .info{
+#pic5 .info {
   position: absolute;
   top: 0;
   padding-top: 55px;
@@ -153,63 +190,117 @@
 }
 
 #pic6 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhVDZOTFlzZ1dQd28=w1136-h723-iv1");
   background-size: cover !important;
 }
 
 #pic7 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPha0pwTmVHTGNBOE0=w1136-h723-iv1");
+  background-position: 0% 40%;
   background-size: cover !important;
 }
 
 #pic8 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhRWZmS1cxUzl5cmc=w1136-h723-iv1");
   background-size: cover !important;
 }
 
 #pic9 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPheEF1Y0pZeE45OFU=w1136-h723-iv1");
   background-size: cover !important;
 }
+
 
 /* ==================
 >>> MODAL LAYOUT <<<
 =================== */
 
-.modal_article_img {
-    display: block;
-    margin: auto;
-    max-height: 50vh;
+.modal_width {
+  height: 90%;
+  width: 90%;
 }
+
+.modal_artist {
+  margin: 0px;
+  font-size: 60px;
+}
+
+.modal_by_line {
+  margin: 0px;
+  font-size: 30px;
+}
+
+.modal_article_img {
+  float: left;
+  max-height: 60vh;
+  max-width: 100%;
+}
+
+.float_left {
+  float: left;
+  margin: 0px 25px 20px 0px;
+}
+
+.modal_video {
+  height: 100%;
+  width: 100%;
+}
+
+
+/* =============
+>>>> TWEETS <<<<
+============== */
+
+#twitter-feed {
+  margin-top: 2%;
+}
+
+.fluffy-box {}
+
+#tile-container {
+  display: flex;
+  width: 1800px;
+  padding-left: 10px 50px;
+}
+
+#tile-container li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 20px;
+}
+
 
 /* =============
 >>>> VIDEO <<<<
 ============== */
 
 .video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
-	margin: auto;
+  position: relative;
+  padding-bottom: 56.25%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.video-container iframe, .video-container object, .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .row.videos {
-	margin:0px;
+  margin: 0px;
 }
 
 @media screen and (min-width: 1000px) {
   .video-container {
-    width:969px;
+    width: 969px;
     height: 575px;
     padding-bottom: 0;
     padding-top: 0;

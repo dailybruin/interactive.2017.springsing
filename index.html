@@ -12,10 +12,11 @@
 
 <body>
     <div id="navbar">
-        <a href="#landing_page">Home</a>
         <a href="#singers">Singers</a>
-        <a href="#judges">Judges</a>
-        <a href="#company">Company</a>
+        <a href="#judges-company">Judges &amp; Company</a>
+        <a href="#landing-page">
+            <img src="../img/springsing2.png" href="#landing-page" alt="Spring Sing 2017" width="100px" id='navbar-logo'>
+        </a>
         <a href="#twitter-feed">Twitter Feed</a>
         <a href="#videos">Videos</a>
     </div>
@@ -168,57 +169,56 @@
         </svg>
     </header>
     <div class="container-fluid">
-        <div class="row full_screen singers" id='singers'>
+        <div class="row full_screen singers no_margin" id='singers'>
             <div class='row'>
                 <div class='block col-xs-12 col-md-4' id='pic1'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal0">
-                        <h1>Artist 1 Name</h1>
+                        <h1>BEL</h1>
                     </button>
                 </div>
                 <div class='block col-xs-12 col-md-4' id='pic2'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal1">
-                        <h1>Artist 2 Name</h1>
+                        <h1>Haylee Hessell</h1>
                     </button>
                 </div>
                 <div class='block col-xs-12 col-md-4' id='pic3'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal2">
-                        <h1>Artist 3 Name</h1>
+                        <h1>Imaan Fitzgerald </h1>
                     </button>
                 </div>
                 <div class='block col-xs-12 col-md-4' id='pic4'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal3">
-                        <h1>Artist 4 Name</h1>
+                        <h1>Chris Pree &amp; Munir Griffin</h1>
                     </button>
                 </div>
-                <div class='block col-xs-12 col-md-4' id='pic5'>
-                    <a class="overlay info" >
-                        <h1>Singers</h1>
-                    </a>
+                <div class='block col-xs-12 hidden-xs hidden-s col-md-4 singer_info' id='pic5'>
                 </div>
                 <div class='block col-xs-12 col-md-4' id='pic6'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal5">
-                        <h1>Artist 6 Name</h1>
+                        <h1>HELEN</h1>
                     </button>
                 </div>
                 <div class='block col-xs-12 col-md-4' id='pic7'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal6">
-                        <h1>Artist 7 Name</h1>
+                        <h1>Stefan Dismond<br>and the Love Supreme </h1>
                     </button>
                 </div>
                 <div class='block col-xs-12 col-md-4' id='pic8'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal7">
-                        <h1>Artist 8 Name</h1>
+                        <h1>Third Degree</h1>
                     </button>
                 </div>
                 <div class='block col-xs-12 col-md-4' id='pic9'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal8">
-                        <h1>Artist 9 Name</h1>
+                        <h1>Regina Silva</h1>
                     </button>
                 </div>
             </div>
         </div>
-
-        <div class="row full_screen judges" id='judges-company'>
+        <div class="row full_screen judges no_margin" id='judges-company'>
+          <div class = "stroketext">
+            JUDGES &amp; COMPANY
+          </div>
             <div class='block hvr-shrink col-xs-12 col-md-6' id='judges'>
               <a class="overlay info">
                 <h1>Judges</h1>
@@ -230,10 +230,21 @@
               </a>
             </div>
         </div>
-        <div class="row full_screen videos" id='twitter-feed'>
-              <h1>tweets!!!!</h1>
+        <div class="row videos no_margin" id='twitter-feed'>
+          <div class = "stroketext">
+            TWITTER FEED
+          </div>
+            <div data-fluffy-container>
+                <div class="fluffy-box" data-fluffy-content>
+                    <ul id="tile-container">
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="row full_screen videos" id='videos'>
+          <div class = "stroketext">
+            VIDEOS
+          </div>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/xPh_joc_bhQ" frameborder="0" allowfullscreen></iframe>
             </div>
@@ -250,12 +261,19 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">{{this.gsx$singername.$t}}</h4>
                         </div>
-                        <div class="modal-body">
-                            <h1>{{this.gsx$singername.$t}}</h1>
-                            <img class="modal_article_img" src="{{this.gsx$photourl.$t}}">
-                            {{{this.gsx$articlecontent.$t}}}
+                        <div class="modal-body fluid-container">
+                            <div class="row">
+                                <div class="col-xs-8 col-xs-offset-2">
+                                    <img class="modal_article_img float_left" src="{{this.gsx$photourl.$t}}">
+                                    <h1 class="modal_artist">{{this.gsx$singername.$t}}</h1>
+                                    <h3 class="modal_by_line">{{this.gsx$articleauthor.$t}}</h3>
+                                    {{{this.gsx$articlecontent.$t}}}
+                                    <div class="modal_video hidden-xs hidden-s">
+                                        {{{this.gsx$videourl.$t}}}
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -266,6 +284,14 @@
             {{/each}}
         </script>
 
+        <script id="tweet_template" type="text/x-handlebars-template">
+            {{#each .}}
+                <li>{{{this.gsx$embeddedtweet.$t}}}</li>
+            {{/each}}
+        </script>
+
+        <link rel="stylesheet" href="css/fluffy.min.css">
+        <script src="js/fluffy.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.min.js"></script>
         <script src="js/app.js"></script>
     </body>
