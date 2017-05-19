@@ -58,7 +58,9 @@ $(document).ready(function(){
       console.log(data.feed.entry);
       var source   = $("#tweet_template").html();
       var template = Handlebars.compile(source);
+      var num_tweets = data.feed.entry.length;
       var tweet_html = template(data.feed.entry.reverse());
+      $("#tile-container").width(num_tweets * 600);
       $("#tile-container").append(tweet_html);
 
   });
