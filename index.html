@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -171,22 +172,22 @@
     <div class="container-fluid">
         <div class="row full_screen singers no_margin" id='singers'>
             <div class='row'>
-                <div class='block col-xs-12 col-md-4' id='pic1'>
+                <div class='block col-xs-12 col-md-4 transition_time' id='pic1'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal0">
                         <h1>BEL</h1>
                     </button>
                 </div>
-                <div class='block col-xs-12 col-md-4' id='pic2'>
+                <div class='block col-xs-12 col-md-4 transition_time' id='pic2'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal1">
                         <h1>Haylee Hessell</h1>
                     </button>
                 </div>
-                <div class='block col-xs-12 col-md-4' id='pic3'>
+                <div class='block col-xs-12 col-md-4 transition_time' id='pic3'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal2">
                         <h1>Imaan Fitzgerald </h1>
                     </button>
                 </div>
-                <div class='block col-xs-12 col-md-4' id='pic4'>
+                <div class='block col-xs-12 col-md-4 transition_time' id='pic4'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal3">
                         <h1>Chris Pree &amp;<br> Munir Griffin</h1>
                     </button>
@@ -196,22 +197,22 @@
                         ARTISTS
                     </div>
                 </div>
-                <div class='block col-xs-12 col-md-4' id='pic6'>
+                <div class='block col-xs-12 col-md-4 transition_time' id='pic6'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal5">
                         <h1>HELEN</h1>
                     </button>
                 </div>
-                <div class='block col-xs-12 col-md-4' id='pic7'>
+                <div class='block col-xs-12 col-md-4 transition_time' id='pic7'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal6">
                         <h1>Stefan Dismond<br>and the Love Supreme </h1>
                     </button>
                 </div>
-                <div class='block col-xs-12 col-md-4' id='pic8'>
+                <div class='block col-xs-12 col-md-4 transition_time' id='pic8'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal7">
                         <h1>Third Degree</h1>
                     </button>
                 </div>
-                <div class='block col-xs-12 col-md-4' id='pic9'>
+                <div class='block col-xs-12 col-md-4 transition_time' id='pic9'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal8">
                         <h1>Regina Silva</h1>
                     </button>
@@ -223,12 +224,12 @@
             JUDGES &amp; COMPANY
           </div>
             <div class='block hvr-shrink col-xs-12 col-md-6' id='judges'>
-              <a class="overlay info">
+              <a class="overlay info" data-toggle="modal" data-target=".modal_judges">
                 <h1>Judges</h1>
               </a>
             </div>
             <div class='block hvr-shrink col-xs-12 col-md-6' id='company'>
-              <a class="overlay info">
+              <a class="overlay info" data-toggle="modal" data-target=".modal_company">
                 <h1>Company</h1>
               </a>
             </div>
@@ -260,6 +261,103 @@
             <a href="https://github.com/bryanvtran" target="_blank">Bryan Tran</a>, 
             and <a href="https://github.com/H-Huang" target="_blank">Howard Huang</a></p>
         </footer>
+
+        <div class="modal_judges modal fade" role="dialog">
+            <div class="modal-dialog modal_width">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body fluid-container">
+                        <div class="row">
+                            <div class="col-xs-6 col-xs-offset-3">
+                                <img class="modal_article_img center_img" src="https://lh3.googleusercontent.com/1wtS0rAlsGxfUd_qbZSXXEWOKN9uWEe8WTY0BSKys3vj01egegsV6JMnDT3Q3tFB64C6AqlWSUUpHLqd2jOppuOPDkGXGQ96smege5r6CiD0ddvqVumuGqSZvz2-t-R6X7toAtN_aLA0_i1YVzqZ_qe-p3-3tq4VbsZxw38ctVMLyyQhna3CrmxBUV6DXa8DPqcnZ3FBgkT95fmvR0osJrxX_vvqgXqSumhGHPZ2fKhsMVOf3YwP-KvCywa31rfzaKfIrKjCnVIg4c1xgknJxFAode5HY1McmBLMcH9U2ZR67glcRwE1-M89obshERgBR-KCszfvwSSW1R2yWrlIJNMI-88f4pmbze0ZoROnHukEcS4qB8KGaIwWW0e9zaTXn639_Do5qL9kEEbaKn6zlJgMBNvULCjY1DhWPmHamyXKeUrj3civio2mZrGdOlBsbRD7UP6vAWf8uEI2sZQ_o68h7TB30mDm8l4VPnugjyMF_Irdzc_yIy2Lpwp7UWXdaCRnezIbg-Z-76w7hI9rwJAFkeFV5BTRTnbQWG-Xfb6TcFQUjM5GQGV7rQtMfZIzsXt8bfM1=w1136-h723">
+                                <h1 class="modal_artist">Judges</h1>
+                                <h3 class="modal_by_line">by Raunak Devjani</h3>
+                                <p>Spring Sing 2017 saw more applicants than in any other year of the talent show's 72-year history.</p>
+                                <p>The 15 members of the Spring Sing Committee narrowed down this year's around 100 applicants to the final 17 performers that will appear onstage Friday. Among the committee members are Executive Director Paige Allenspach and talent directors Angela Navas, Chelsey Brody and Kayla Samuels.</p>
+                                <p>Allenspach, a fourth-year communication studies student, was selected in May 2016 as director of the Spring Sing Committee. This fall, she selected Navas, a third-year molecular, cell and development biology student, Brody, a third-year political science student and Samuels, a second-year psychology student, to become talent directors.</p>
+                                <p>In fall, the Spring Sing Committee released an online application for prospective performers. The application asked the candidates why they wanted to be in the show and allowed them to attach a video recording of them performing as a prescreening. Artists could apply under five categories: solo/duet, band, a cappella/choral ensemble, production and exhibition.</p>
+                                <p>The Spring Sing Committee usually selects 15 to 17 acts for the event every year. The panel has no predefined criteria for what it wants to see, the talent directors said.</p>
+                                <p>"If the performance resonates with the Spring Sing Committee, and we want to just display that to the UCLA community as a whole, then I guess that's the criteria," Brody said.</p>
+                                <p>Navas said one thing talent directors consider is the effort students put into their applications. Allenspach said they seek a sense of Bruin pride in applicants.</p>
+                                <p>"We're essentially looking for genuine and raw talent," Allenspach said. "We want to see people who can appreciate what Spring Sing is and what it does for the UCLA community, because it really is a place where we can all come together and celebrate what it means to be a Bruin."</p>
+                                <p>Around 80 of the 100 applicants were given audition calls this year, Samuels said.</p>
+                                <p>Auditions for Spring Sing occurred over the fourth week of winter quarter in Ackerman Grand Ballroom and Kerckhoff Grand Salon.</p>
+                                <p>In addition to Allenspach and the talent directors, the other 11 members of the Spring Sing Committee watched the auditions as well. Performers ranged from artists releasing their own albums - like Griff Clawson - to those who have never performed in an arena as large as Pauley Pavilion before - like Haylee Hessell.</p>
+                                <p>Though Allenspach doesn't have experience in musical performance, she said her involvement with the Student Alumni Association since her freshman year helped her decide which performers will be a good fit for Spring Sing.</p>
+                                <p>"I don't really love listening to Top 40," Allenspach said. "I really like finding random talent, and so I think that's really come out (in Spring Sing) as well, in just reaching out and seeing what UCLA has to offer."</p>
+                                <p>For Allenspach, the South Asian a cappella group Naya Zamaana fit this criteria. A memorable audition moment for her was talking to the members of the group that sings mashups of Hindi songs. She said most of the committee had never heard of Naya Zamaana before, but got goosebumps at the prospect of selecting a group that had never been a part of Spring Sing's history.</p>
+                                <p>"It was a really humbling moment to watch them audition and see something very different brought to the table," Allenspach said.</p>
+                                <p>Another noteworthy audition was that of Chris Pree and Munir Griffin, who encouraged the committee to clap their hands along to their music during their energetic tryout, Allenspach said.</p>
+                                <p>While judging the auditions, the committee members kept in mind that they needed a balanced blend of all five types of acts. They seek diversity in a number of criteria such as genre and the types of instruments being played. The talent directors said the hardest part of their role is having to choose the final performers that go into the event.</p>
+                                <p>"We just want to create a really full show," Samuels said. </p>
+                                <p>"When we pick the final 17, it's really about seeing the bigger picture, which is really hard because you watch all the acts and fall in love with some of them," Allenspach said. "(It's about) understanding that this event is for 9,000 people and creating something that the whole UCLA community will love at the end."</p>
+                                <p>After 30 hours of auditions, the talent directors notified the final 17 groups of their selection in the fifth week of winter quarter. They began individually visiting the artists during rehearsals, helping them sculpt their acts for the stage by giving them feedback using their background in music and the performing arts. They help artists manage the timing of their pieces, envision their performances on stage and become more confident.</p>
+                                <p>"We're there to just facilitate (the process of improving their performances) and make them the best performers they can be," Samuels said.</p>
+                                <p>"It's more just working with them," Navas said. "We're not trying to change them; We're just trying to bring out their talent."</p>
+                                <p>For Allenspach, Spring Sing remains an iconic part of Bruin tradition because it brings together the UCLA community to celebrate the melange of talent that exists on campus.</p>
+                                <p>Allenspach said she was blown away by the talent she saw onstage at Spring Sing in her first year of UCLA, from Company's skits that made her laugh to music performed by 2014 contestants Eric Jung and Alex Liu. She was a part of the behind-the-scenes work at the 2014 Spring Sing and knew since then that she wanted to be a bigger part of the show.</p>
+                                <p>As executive director of the event, she now fulfills her desire of being involved with Spring Sing.</p>
+                                <p>"When I went to Spring Sing in my freshman year, it was one of those defining moments where I realized, 'Wow, I love this school'," Allenspach said. "So for me, I'm just really emotionally attached to the show and I love everything that it represents."</p>
+                                <img class="center_img" src="https://lh3.google.com/u/0/d/0B8Gqj4nBG7RTZXVRS01aUERqUFk=w1136-h679-iv1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal_company modal fade" role="dialog">
+            <div class="modal-dialog modal_width">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body fluid-container">
+                        <div class="row">
+                            <div class="col-xs-6 col-xs-offset-3">
+                                <img class="modal_article_img center_img" src="">
+                                <h1 class="modal_artist">Company</h1>
+                                <h3 class="modal_by_line">by Raunak Devjani</h3>
+                                <p>Hannah Connery drove to Las Vegas to film scenes for a Spring Sing comedy sketch with a 101-degree fever, coughing throughout the 12-hour video shoot.</p>
+                                <p>Connery, a third-year theater student, joined the ensemble Company this year because she was allured by the prospect of writing, filming and acting in Spring Sing's comic relief team. The 13-person comedy troupe will perform live sketches and project prerecorded videos in between the talent acts at Spring Sing.</p>
+                                <p>This year, one of the sketches called for an intensive, out-of-state filming process. Set in Las Vegas, the sketch required Company members to make the 4-hour drive to the city at 5 a.m. and shoot from 9 a.m. to 9 p.m., only to return the following Sunday morning.</p>
+                                <p>Although Connery spent the whole day shooting with her fever, she made sure to make the most of her night in Las Vegas by going out with her fellow Company members to the Strip after filming, she said.</p>
+                                <p>"We had to go out of state for the sketch, so we decided to just make a day out of it," Connery said.</p>
+                                <p>Connery was initially attracted to the comedy group when she viewed its riveting performances during Spring Sing and learned about Company. Connery laughed at the sketches throughout the night, and by the end of the event, Connery knew she had to try out for Company during her time at UCLA, she said.</p>
+                                <p>One of Connery's favorite sketches to watch during her first year was the "I Can't Even Deal" music video from Spring Sing 2015. The music video was centered on the insignificant struggles of all Bruins, Connery said.</p>
+                                <p>"(The music video) was so relevant to all of us," Connery said. "Although it was not the only sketch that made me want to join Company, it was definitely one of them."</p>
+                                <p>"I Can't Even Deal" was based off common plights of the average Bruin, like not getting the right sandwich at Bruin Café or having clothes dumped on the floor of the laundry room. It was an effective use of humor to bring together the experiences of UCLA students, said Jake Dvorsky, a third-year theater student and a member of Company.</p>
+                                <p>"When I watched ‘I Can't Even Deal' and ‘Flight of the Walkingjay' my freshman year, I just thought the sketches were genius and laughed so hard," Dvorsky said. "I felt like I was watching the veterans of 'Saturday Night Live.'"</p>
+                                <p>A year after attending his first Spring Sing in 2015, Dvorsky auditioned for Company and was offered a spot after his solo audition and group callback in 2016.</p>
+                                <p>The purpose of the Company application process is to gauge how well students can let go of their inhibitions and be comfortable portraying absurdity in an innovative way, said Caroline Desler, a third-year human biology and society student and Company director on the Student Alumni Association's Spring Sing committee.</p>
+                                <p>"We want to avoid having one-trick ponies because we want fresh material," Desler said.</p>
+                                <p>Immediately after being accepted onto the team, Dvorsky practiced writing three scripts to adjust himself to the comedy-sketch style, which proved to be a difficult experience, he said.</p>
+                                <p>"You cannot just be naturally funny," Dvorsky said. "You have to know how to write and collaborate with others to get a sketch out."</p>
+                                <p>Dvorsky adapted to the writing style and began to find comedic inspiration in seemingly commonplace occurrences. For Spring Sing 2016, Dvorsky wrote "Hover Bruins," a sketch about an imaginary UCLA club that races hoverboards, after seeing several athletes hoverboarding down Bruin Walk, he said.</p>
+                                <p>"Hover Bruins" was Dvorsky's first sketch that was shown at Spring Sing, making it a memorable albeit laborious process, he said. Since the sketch is based on the premise of the secret hoverboarding club meeting at night on campus, Dvorsky had to schedule rehearsal times that often spanned from 1 a.m. to 4 a.m.</p>
+                                <p>Sometimes sketches turn out to be even more absurd than planned. One of this year's sketches - which are top secret until shown at Spring Sing - required renting an animal that turned out to be even higher maintenance than they thought, Dvorsky said.</p>
+                                <p>"Little did we know said animal would decide to poop and pee every two minutes on the clock," Dvorsky said. "Factoring in time to clean up animal excrement into shooting time is just one of the bizarre things that you learn to accept being (in) Company."</p>
+                                <p>Although the ridiculousness of many of Company's sketches require intense planning and strange settings, the sketches add laughter to one of the most unifying and enduring Bruin traditions, Connery said.</p>
+                                <p>"We make these sketches out of passing thoughts we have as we go about being UCLA students," Connery said. "The parodying and the exaggerating (are what make) audiences laugh and simultaneously be proud of being a Bruin."</p>
+                                <div class="modal_video hidden-xs hidden-s">
+                                    <iframe width="854" height="480" src="https://www.youtube.com/embed/IhOb_iyD2u8" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="singer_modal_placeholder">
         </div>

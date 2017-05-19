@@ -10,6 +10,14 @@ body {
   background-color: black;
 }
 
+.transition_time {
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
 .no_margin {
   padding-top: 20px;
   margin: 0px;
@@ -128,7 +136,7 @@ body {
 
 #company {
   display: block;
-  background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/18491765_1484519591579379_8031483925442164008_o.jpg?oh=4fa4dc255206768cf8bf13415e99c587&oe=59A5A328");
+  background-image: url("https://lh3.google.com/u/0/d/0B8Gqj4nBG7RTZXVRS01aUERqUFk=w1136-h679-iv1");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -154,24 +162,24 @@ body {
 
 #pic1 {
   background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhRmprUWktWmgxZXM=w1136-h723-iv1");
-  background-size: cover !important;
+  background-size: cover;
   background-position: 0% 20%;
 }
 
 #pic2 {
   background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhZl9sX2swRUNZMm8=w1136-h723-iv1");
-  background-size: cover !important;
+  background-size: cover;
   background-position: 0% 20%;
 }
 
 #pic3 {
   background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhYkI5SjVUQkFtWGM=w1136-h723-iv1");
-  background-size: cover !important;
+  background-size: cover;
 }
 
 #pic4 {
   background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhOXlHbVpwbGp3ZVk=w1136-h723-iv1");
-  background-size: cover !important;
+  background-size: cover;
 }
 
 #pic5 {
@@ -191,23 +199,24 @@ body {
 
 #pic6 {
   background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhVDZOTFlzZ1dQd28=w1136-h723-iv1");
-  background-size: cover !important;
+  background-size: cover;
 }
 
 #pic7 {
   background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPha0pwTmVHTGNBOE0=w1136-h723-iv1");
-  background-position: 0% 40%;
-  background-size: cover !important;
+  background-position: 0% 20%;
+  background-size: cover;
 }
 
 #pic8 {
   background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhRWZmS1cxUzl5cmc=w1136-h723-iv1");
-  background-size: cover !important;
+  background-position: 0% 80%;
+  background-size: cover;
 }
 
 #pic9 {
   background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPheEF1Y0pZeE45OFU=w1136-h723-iv1");
-  background-size: cover !important;
+  background-size: cover;
 }
 
 
