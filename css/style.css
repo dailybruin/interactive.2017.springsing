@@ -307,6 +307,7 @@ body {
 }
 
 .graphic_img {
+  max-width: 90%;
   max-height: 80vh;
   display: block;
   margin: auto;
