@@ -132,18 +132,18 @@ html{
 }
 
 #pic2 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhZl9sX2swRUNZMm8=w1136-h723-iv1");
   background-size: cover !important;
-  background-position: 0% 30%;
+  background-position: 0% 20%;
 }
 
 #pic3 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhYkI5SjVUQkFtWGM=w1136-h723-iv1");
   background-size: cover !important;
 }
 
 #pic4 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhOXlHbVpwbGp3ZVk=w1136-h723-iv1");
   background-size: cover !important;
 }
 
@@ -165,22 +165,23 @@ html{
 }
 
 #pic6 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhVDZOTFlzZ1dQd28=w1136-h723-iv1");
   background-size: cover !important;
 }
 
 #pic7 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPha0pwTmVHTGNBOE0=w1136-h723-iv1");
+  background-position: 0% 40%;
   background-size: cover !important;
 }
 
 #pic8 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPhRWZmS1cxUzl5cmc=w1136-h723-iv1");
   background-size: cover !important;
 }
 
 #pic9 {
-  background-image: url("http://mp3teca.com/-/2014/11/Beyonce.jpg");
+  background-image: url("https://lh3.google.com/u/0/d/0B_0uEI71jEPheEF1Y0pZeE45OFU=w1136-h723-iv1");
   background-size: cover !important;
 }
 
@@ -225,6 +226,9 @@ html{
 }
 
 #tile-container li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0px 20px;
 }
 
