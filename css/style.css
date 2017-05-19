@@ -65,7 +65,8 @@ body {
   text-align: center;
   padding-top: 0px;
   color: #fff;
-  font-family: 'Futura', Arial, sans-serif;
+  font-family: 'Futura';
+  src: url("../assets/futura-normal.ttf");
 }
 
 #judges .info,
@@ -96,7 +97,8 @@ body {
   padding-left: 2vw;
   text-align: center;
   color: white;
-  font-family: 'Futura', Arial, sans-serif;
+  font-family: 'Futura';
+  src: url("../assets/futura-normal.ttf");
 }
 
 #navbar-logo{
