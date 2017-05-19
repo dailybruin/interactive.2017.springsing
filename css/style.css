@@ -2,8 +2,12 @@
 >>> GENERAL LAYOUT <<<
 =================== */
 @font-face {
-  font-family: "Futura-normal";
-  src: url("../assets/futura-normal.ttf") format('truetype');
+  font-family: "Futura PT";
+  src: url("../assets/FuturaPT-Medium.eot");
+  src: url("../assets/FuturaPT-Medium.svg") format("svg"),
+  url("../assets/FuturaPT-Medium.woff") format("woff"),
+  url("../assets/FuturaPT-Medium.woff2") format("woff2");
+
 }
 html {
   overflow-x: hidden;
@@ -74,7 +78,7 @@ body {
   text-align: center;
   padding-top: 0px;
   color: #fff;
-  font-family: 'Futura-normal';
+  font-family: 'Futura PT';
 }
 
 #judges .info,
@@ -105,7 +109,7 @@ body {
   padding-left: 2vw;
   text-align: center;
   color: white;
-  font-family: 'Futura-normal';
+  font-family: 'Futura PT';
 }
 
 #navbar-logo{
