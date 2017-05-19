@@ -2,24 +2,29 @@
 >>> GENERAL LAYOUT <<<
 =================== */
 
-html{
-    overflow-x: hidden;
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: black;
 }
 
 .no_margin {
-    margin: 0px;
+  margin: 0px;
 }
 
 .full_screen {
-    width: 100vw;
-    max-width:100%;
-    min-height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  min-height: 100vh;
 }
 
 .container-fluid {
   padding: 0px;
   height: 100vh;
 }
+
 
 /* ===================
 >>>> GRID LAYOUT <<<<
@@ -53,7 +58,8 @@ html{
   font-family: "Futura", "Didact Gothic";
 }
 
-#judges .info, #company .info {
+#judges .info,
+#company .info {
   padding-top: 40vh;
 }
 
@@ -64,9 +70,9 @@ html{
   align-items: center;
 }
 
-#navbar{
+#navbar {
   position: fixed !important;
-  min-width:100%;
+  min-width: 100%;
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding-top: 2px;
@@ -94,7 +100,7 @@ html{
   background-image: url("../img/judges.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   min-height: 100vh;
   min-width: 50%;
 }
@@ -104,7 +110,7 @@ html{
   background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/18491765_1484519591579379_8031483925442164008_o.jpg?oh=4fa4dc255206768cf8bf13415e99c587&oe=59A5A328");
   background-size: cover;
   background-position: center;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   min-height: 100vh;
   min-width: 50%;
 }
@@ -152,7 +158,7 @@ html{
   background-size: cover !important;
 }
 
-#pic5 .info{
+#pic5 .info {
   position: absolute;
   top: 0;
   padding-top: 55px;
@@ -185,6 +191,7 @@ html{
   background-size: cover !important;
 }
 
+
 /* ==================
 >>> MODAL LAYOUT <<<
 =================== */
@@ -194,19 +201,32 @@ html{
   width: 90%;
 }
 
+.modal_artist {
+  margin: 0px;
+  font-size: 60px;
+}
+
+.modal_by_line {
+  margin: 0px;
+  font-size: 30px;
+}
+
 .modal_article_img {
-    display: block;
-    margin: auto;
-    max-height: 50vh;
-    max-width: 100%;
+  float: left;
+  max-height: 60vh;
+  max-width: 100%;
 }
 
 .float_left {
-	float: left;
-	width: 300px;
-	padding: 13px;
-	margin: 10px 15px 0px -200px;
+  float: left;
+  margin: 0px 25px 20px 0px;
 }
+
+.modal_video {
+  height: 100%;
+  width: 100%;
+}
+
 
 /* =============
 >>>> TWEETS <<<<
@@ -216,8 +236,7 @@ html{
   margin-top: 2%;
 }
 
-.fluffy-box {
-}
+.fluffy-box {}
 
 #tile-container {
   display: flex;
@@ -232,35 +251,37 @@ html{
   margin: 0px 20px;
 }
 
+
 /* =============
 >>>> VIDEO <<<<
 ============== */
 
 .video-container {
-	position:relative;
-	padding-bottom:56.25%;
-	margin: auto;
-  
+  position: relative;
+  padding-bottom: 56.25%;
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.video-container iframe, .video-container object, .video-container embed {
-	position:absolute;
-	top:0;
-	left:0;
-	width: 100%;
-	height: 100%;
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .row.videos {
-	margin:0px;
+  margin: 0px;
 }
 
 @media screen and (min-width: 1000px) {
   .video-container {
-    width:969px;
+    width: 969px;
     height: 575px;
     padding-bottom: 0;
     padding-top: 0;

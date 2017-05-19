@@ -104,11 +104,21 @@
                 <div class="modal-dialog modal_width">
                     <!-- Modal content-->
                     <div class="modal-content">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <div class="modal-body">
-                            <h1>{{this.gsx$singername.$t}}</h1>
-                            <img class="modal_article_img" src="{{this.gsx$photourl.$t}}">
-                            {{{this.gsx$articlecontent.$t}}}
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+                        <div class="modal-body fluid-container">
+                            <div class="row">
+                                <div class="col-xs-8 col-xs-offset-2">
+                                    <img class="modal_article_img float_left" src="{{this.gsx$photourl.$t}}">
+                                    <h1 class="modal_artist">{{this.gsx$singername.$t}}</h1>
+                                    <h3 class="modal_by_line">{{this.gsx$articleauthor.$t}}</h3>
+                                    {{{this.gsx$articlecontent.$t}}}
+                                    <div class="modal_video hidden-xs hidden-s">
+                                        {{{this.gsx$videourl.$t}}}
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
