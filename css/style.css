@@ -65,7 +65,7 @@ body {
   text-align: center;
   padding-top: 0px;
   color: #fff;
-  font-family: "Futura", "Didact Gothic";
+  font-family: 'Futura', Arial, sans-serif;
 }
 
 #judges .info,
@@ -96,7 +96,7 @@ body {
   padding-left: 2vw;
   text-align: center;
   color: white;
-  font-family: "Futura", "Didact Gothic";
+  font-family: 'Futura', Arial, sans-serif;
 }
 
 #navbar-logo{
@@ -389,7 +389,7 @@ Landing Page
     border: 1px solid #fff;
     border-radius: 4px;
     padding: 10px 18px;
-    background-color: #fff; 
+    background-color: #fff;
 }
 
 .lights {
@@ -401,9 +401,9 @@ Landing Page
     width: 100%;
     background: #060809;
     background-image: url(../img/landing_page.svg);
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;   
+    background-position: center center;
 }
 
 .full_screen__logo {
