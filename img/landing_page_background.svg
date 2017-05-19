@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="4534px" height="2559px" viewBox="0 0 4534 2559" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<svg width="4532px" height="2559px" viewBox="0 0 4532 2559" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
-    <title>landing_page</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -86,32 +85,6 @@
                         <polygon id="Shape" fill="#2D302D" points="161.4 177.6 186 223.9 55.2 279.9 66.4 224.1"></polygon>
                         <polygon id="Shape" fill="#2D302D" points="71.2 218.7 61.2 157.1 0.1 144.8 23.9 289.1"></polygon>
                     </g>
-                </g>
-            </g>
-            <g id="Lights" transform="translate(84.000000, 78.000000)" fill-rule="nonzero">
-                <g id="lights-2" class="lights" fill="#EF4277">
-                    <ellipse id="Oval" cx="431.2" cy="2003.1" rx="421.4" ry="39.1"></ellipse>
-                    <path d="M642.6,0 C428.7,664.1 214.7,1328.1 0.8,1992.2 C99.9,1987.2 204,1984.9 312.7,1986.2 C507.2,1988.6 687.9,2002.2 852.6,2022.2 C782.6,1348.1 712.6,674.1 642.6,0 Z" id="Shape" opacity="0.69"></path>
-                </g>
-                <g id="lights-3" class="lights" transform="translate(1496.000000, 66.000000)" fill="#EF4277">
-                    <ellipse id="Oval" cx="1093" cy="1898.1" rx="435" ry="20"></ellipse>
-                    <path d="M0.6,0.1 C219.2,631.5 437.9,1262.9 656.5,1894.2 C811.6,1882.8 943.1,1878.9 1044.8,1877.9 C1171.8,1876.7 1258.1,1879.9 1281.8,1880.9 C1370.4,1884.5 1447,1890.3 1507.9,1896 C1005.5,1264 503.1,632.1 0.6,0.1 Z" id="Shape" opacity="0.69"></path>
-                </g>
-                <g id="lights-1" class="lights" transform="translate(129.000000, 178.000000)" fill="#46C6E9">
-                    <ellipse id="Oval" cx="1565" cy="1828" rx="306" ry="20"></ellipse>
-                    <path d="M0.4,0 C426.6,612 852.8,1224 1279,1836 C1374.3,1819.2 1489,1806.6 1619,1808 C1712.3,1809 1796.9,1817 1871,1828 C1247.5,1218.7 623.9,609.3 0.4,0 Z" id="Shape" opacity="0.64"></path>
-                </g>
-                <g id="lights-4" class="lights" transform="translate(942.000000, 98.000000)" fill="#FFD62A">
-                    <ellipse id="Oval" cx="426.2" cy="1916" rx="426" ry="24"></ellipse>
-                    <path d="M1878,0 L0.2,1916 C0.2,1916 498.4,1880 852.2,1916 L1878,0 Z" id="Shape" opacity="0.58"></path>
-                </g>
-                <g id="lights-5" class="lights" transform="translate(2652.000000, 80.000000)" fill="#44C7F4">
-                    <ellipse id="Oval" cx="435.2" cy="1968.1" rx="434.9" ry="25.9"></ellipse>
-                    <path d="M1322.1,0.9 L0.3,1968.1 C0.3,1968.1 672.2,1942.2 870.1,1968.1 L1322.1,0.9 Z" id="Shape" opacity="0.63"></path>
-                </g>
-                <g id="lights-6" class="lights" transform="translate(3774.000000, 150.000000)" fill="#FFD62A">
-                    <path d="M401.9,1894 C505.8912,1894 600.65766,1891.05182 672.01719,1886.21409 C673.33345,1886.12486 674.21525,1872.80607 674.21525,1864 C674.21525,1855.2739 675.31906,1842.01198 674.21525,1841.93603 C673.87762,1841.9128 506.96256,1834 401.9,1834 C179.93676,1834 0,1847.43146 0,1864 C0,1880.56854 179.93676,1894 401.9,1894 Z" id="Oval"></path>
-                    <path d="M473.9,0.6 C316,621.7 158,1242.9 0,1864 C0,1864 248.50382,1834.63817 543.98641,1851.60364 C590.23157,1854.25886 634.51926,1858.02922 675.10398,1863.19873 C673.86491,1856.19612 675.62604,1146.62882 675.10398,1143.65675 C608.17486,762.630982 541.37647,381.596677 473.9,0.6 Z" id="Shape" opacity="0.63"></path>
                 </g>
             </g>
         </g>
