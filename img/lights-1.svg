@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1871px" height="1848px" viewBox="0 0 1871 1848" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44 (41411) - http://www.bohemiancoding.com/sketch -->
+    <title>1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="landing_page" transform="translate(-213.000000, -256.000000)" fill-rule="nonzero" fill="#46C6E9">
+            <g id="Lights" transform="translate(84.000000, 78.000000)">
+                <g id="1" transform="translate(129.000000, 178.000000)">
+                    <ellipse id="Oval" cx="1565" cy="1828" rx="306" ry="20"></ellipse>
+                    <path d="M0.4,0 C426.6,612 852.8,1224 1279,1836 C1374.3,1819.2 1489,1806.6 1619,1808 C1712.3,1809 1796.9,1817 1871,1828 C1247.5,1218.7 623.9,609.3 0.4,0 Z" id="Shape" opacity="0.64"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
