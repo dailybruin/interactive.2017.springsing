@@ -11,6 +11,7 @@ body {
 }
 
 .no_margin {
+  padding-top: 20px;
   margin: 0px;
 }
 
@@ -18,6 +19,7 @@ body {
   width: 100vw;
   max-width: 100%;
   min-height: 100vh;
+  margin: 30px 0px;
 }
 
 .with_banner {
@@ -106,7 +108,7 @@ body {
 
 #singers {
   /*padding-top: 7vh;*/
-  max-height: 50vh !important;
+  /*max-height: 50vh !important;*/
 }
 /* ============================= PICS GO HERE =============================*/
 
@@ -114,7 +116,7 @@ body {
 .stroketext {
   font-family: "Verdana";
   font-style: italic;
-  padding-top: 5vh;
+  margin-top: 2vh;
   background-color: black;
 
   text-align: center;
@@ -123,10 +125,9 @@ body {
   -webkit-text-fill-color: #47d4ff;
 }
 
-
 #judges {
-  /*display: block;*/
-  background-image: url("../img/judges.jpg");
+  display: block;
+  background-image: url("https://lh3.googleusercontent.com/1wtS0rAlsGxfUd_qbZSXXEWOKN9uWEe8WTY0BSKys3vj01egegsV6JMnDT3Q3tFB64C6AqlWSUUpHLqd2jOppuOPDkGXGQ96smege5r6CiD0ddvqVumuGqSZvz2-t-R6X7toAtN_aLA0_i1YVzqZ_qe-p3-3tq4VbsZxw38ctVMLyyQhna3CrmxBUV6DXa8DPqcnZ3FBgkT95fmvR0osJrxX_vvqgXqSumhGHPZ2fKhsMVOf3YwP-KvCywa31rfzaKfIrKjCnVIg4c1xgknJxFAode5HY1McmBLMcH9U2ZR67glcRwE1-M89obshERgBR-KCszfvwSSW1R2yWrlIJNMI-88f4pmbze0ZoROnHukEcS4qB8KGaIwWW0e9zaTXn639_Do5qL9kEEbaKn6zlJgMBNvULCjY1DhWPmHamyXKeUrj3civio2mZrGdOlBsbRD7UP6vAWf8uEI2sZQ_o68h7TB30mDm8l4VPnugjyMF_Irdzc_yIy2Lpwp7UWXdaCRnezIbg-Z-76w7hI9rwJAFkeFV5BTRTnbQWG-Xfb6TcFQUjM5GQGV7rQtMfZIzsXt8bfM1=w1136-h723");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -184,9 +185,6 @@ body {
 }
 
 #pic5 {
-  background-image: url("../img/artists.svg");
-  background-position: center;
-  background-size: cover !important;
 }
 
 #pic5 .info {
@@ -233,17 +231,18 @@ body {
 }
 
 .modal_artist {
-  margin: 0px;
+  text-align: center;
+  margin: 10px 0x;
   font-size: 60px;
 }
 
 .modal_by_line {
-  margin: 0px;
+  text-align: center;
+  margin: 10px 0px;
   font-size: 30px;
 }
 
 .modal_article_img {
-  float: left;
   max-height: 60vh;
   max-width: 100%;
 }
@@ -253,11 +252,18 @@ body {
   margin: 0px 25px 20px 0px;
 }
 
+.center_img {
+  display: block;
+  margin: auto;
+}
+
 .modal_video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   width: 100%;
 }
-
 
 /* =============
 >>>> TWEETS <<<<
@@ -267,12 +273,10 @@ body {
   margin-top: 2%;
 }
 
-.fluffy-box {}
-
 #tile-container {
   display: flex;
-  width: 1800px;
-  padding-left: 10px 50px;
+  width: 1600px;
+  padding-left: 50px;
 }
 
 #tile-container li {
@@ -288,35 +292,43 @@ body {
 ============== */
 
 .video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
 }
 
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+/* w x h = 1 x .56206 */
+@media screen and (min-width: 1024px) {
+    .video-container iframe {
+      width: 854px;
+      height: 480px;
+    }
 }
 
-.row.videos {
-  margin: 0px;
+@media screen and (min-width: 525px) and (max-width: 1023px) {
+    .video-container iframe {
+      width: 500px;
+      height: 281px;
+    }
 }
 
-@media screen and (min-width: 1000px) {
-  .video-container {
-    width: 969px;
-    height: 575px;
-    padding-bottom: 0;
-    padding-top: 0;
-  }
+@media screen and (min-width: 300px) and (max-width: 524px) {
+    .video-container iframe {
+      width: 275px;
+      height: 154px;
+    }
+}
+
+/* =============
+>>>> FOOTER <<<<
+============== */
+
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 12px;
 }
 
 /***************

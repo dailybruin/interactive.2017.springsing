@@ -14,8 +14,8 @@
     <div id="navbar">
         <a href="#singers">Singers</a>
         <a href="#judges-company">Judges &amp; Company</a>
-        <a href="#Page-1">
-            <img src="/../img/springsing2.png" href="#landing-page" alt="Spring Sing 2017" width="80px" id='navbar-logo'>
+        <a href="#landing_page">
+            <img src="img/springsing2.png" href="#landing-page" alt="Spring Sing 2017" width="80px" id='navbar-logo'>
         </a>
         <a href="#twitter-feed">Twitter Feed</a>
         <a href="#videos">Videos</a>
@@ -188,10 +188,13 @@
                 </div>
                 <div class='block col-xs-12 col-md-4' id='pic4'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal3">
-                        <h1>Chris Pree &amp; Munir Griffin</h1>
+                        <h1>Chris Pree &amp;<br> Munir Griffin</h1>
                     </button>
                 </div>
                 <div class='block col-xs-12 hidden-xs hidden-s col-md-4 singer_info' id='pic5'>
+                    <div class="stroketext">
+                        ARTISTS
+                    </div>
                 </div>
                 <div class='block col-xs-12 col-md-4' id='pic6'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal5">
@@ -215,9 +218,9 @@
                 </div>
             </div>
         </div>
-      </div>  
+      </div>
         <div class="row full_screen judges no_margin" id='judges-company'>
-          <div class = "stroketext">
+          <div class = "stroketext" >
             JUDGES &amp; COMPANY
           </div>
             <div class='block hvr-shrink col-xs-12 col-md-6' id='judges'>
@@ -231,7 +234,7 @@
               </a>
             </div>
         </div>
-        <div class="row videos no_margin" id='twitter-feed'>
+        <div class="row twitter no_margin" id='twitter-feed'>
           <div class = "stroketext">
             TWITTER FEED
           </div>
@@ -242,14 +245,23 @@
                 </div>
             </div>
         </div>
+
         <div class="row full_screen videos" id='videos'>
-          <div class = "stroketext">
-            VIDEOS
-          </div>
+            <div class = "stroketext">
+                VIDEOS
+            </div>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/xPh_joc_bhQ" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
+
+        <footer>
+            <p>Page created by <a href="https://github.com/melissa-chen" target="_blank">Melissa Chen</a>,
+            <a href="https://github.com/stacymiller96" target="_blank">Stacy Miller</a>,
+            <a href="https://github.com/bryanvtran" target="_blank">Bryan Tran</a>,
+            and <a href="https://github.com/H-Huang" target="_blank">Howard Huang</a></p>
+        </footer>
+
         <div class="singer_modal_placeholder">
         </div>
 
@@ -265,8 +277,8 @@
                         </div>
                         <div class="modal-body fluid-container">
                             <div class="row">
-                                <div class="col-xs-8 col-xs-offset-2">
-                                    <img class="modal_article_img float_left" src="{{this.gsx$photourl.$t}}">
+                                <div class="col-xs-6 col-xs-offset-3">
+                                    <img class="modal_article_img center_img" src="{{this.gsx$photourl.$t}}">
                                     <h1 class="modal_artist">{{this.gsx$singername.$t}}</h1>
                                     <h3 class="modal_by_line">{{this.gsx$articleauthor.$t}}</h3>
                                     {{{this.gsx$articlecontent.$t}}}
