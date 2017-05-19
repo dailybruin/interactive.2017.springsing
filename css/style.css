@@ -90,6 +90,7 @@ body {
 
 #navbar {
   position: fixed !important;
+  min-width: 100vw;
   background: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding-top: 2px;
@@ -306,8 +307,7 @@ body {
 }
 
 .graphic_img {
-  max-height: 85vh;
-  max-width: 90%;
+  max-height: 80vh;
   display: block;
   margin: auto;
 }
