@@ -25,10 +25,6 @@ html{
 >>>> GRID LAYOUT <<<<
 =================== */
 
-.modal_width {
-    width: 80%;
-}
-
 .block {
   height: 33.3vh;
   display: inline-block;
@@ -59,6 +55,13 @@ html{
 
 #judges .info, #company .info {
   padding-top: 40vh;
+}
+
+.singer_info {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #navbar{
@@ -115,7 +118,6 @@ html{
 #pic2,
 #pic3,
 #pic4,
-#pic5,
 #pic6,
 #pic7,
 #pic8,
@@ -186,10 +188,16 @@ html{
 >>> MODAL LAYOUT <<<
 =================== */
 
+.modal_width {
+  height: 90%;
+  width: 90%;
+}
+
 .modal_article_img {
     display: block;
     margin: auto;
     max-height: 50vh;
+    max-width: 100%;
 }
 
 .float_left {
@@ -200,16 +208,38 @@ html{
 }
 
 /* =============
+>>>> TWEETS <<<<
+============== */
+
+#twitter-feed {
+  margin-top: 2%;
+}
+
+.fluffy-box {
+}
+
+#tile-container {
+  display: flex;
+  width: 1800px;
+  padding-left: 10px 50px;
+}
+
+#tile-container li {
+  margin: 0px 20px;
+}
+
+/* =============
 >>>> VIDEO <<<<
 ============== */
 
 .video-container {
 	position:relative;
 	padding-bottom:56.25%;
-	padding-top:30px;
-	height:0;
-	overflow:hidden;
 	margin: auto;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .video-container iframe, .video-container object, .video-container embed {
@@ -231,3 +261,4 @@ html{
     padding-bottom: 0;
     padding-top: 0;
   }
+}

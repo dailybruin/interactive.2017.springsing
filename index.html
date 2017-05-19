@@ -44,10 +44,8 @@
                         <h1>Artist 4 Name</h1>
                     </button>
                 </div>
-                <div class='block col-xs-12 hidden-xs col-md-4' id='pic5'>
-                    <a class="overlay info" >
-                        <h1>Singers</h1>
-                    </a>
+                <div class='block col-xs-12 hidden-xs col-md-4 singer_info' id='pic5'>
+                    <h1>Spring Sing Artists</h1>
                 </div>
                 <div class='block col-xs-12 col-md-4' id='pic6'>
                     <button class="btn btn-primary overlay info" data-toggle="modal" data-target=".modal5">
@@ -84,7 +82,12 @@
             </div>
         </div>
         <div class="row full_screen videos no_margin" id='twitter-feed'>
-              <h1>tweets!!!!</h1>
+            <div data-fluffy-container>
+                <div class="fluffy-box" data-fluffy-content>
+                    <ul id="tile-container">
+                    </ul>
+                </div>
+            </div>
         </div>
         <div class="row full_screen videos" id='videos'>
             <div class="video-container">
@@ -101,10 +104,7 @@
                 <div class="modal-dialog modal_width">
                     <!-- Modal content-->
                     <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">{{this.gsx$singername.$t}}</h4>
-                        </div>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
                         <div class="modal-body">
                             <h1>{{this.gsx$singername.$t}}</h1>
                             <img class="modal_article_img" src="{{this.gsx$photourl.$t}}">
@@ -119,6 +119,14 @@
             {{/each}}
         </script>
 
+        <script id="tweet_template" type="text/x-handlebars-template">
+            {{#each .}}
+                <li>{{{this.gsx$embeddedtweet.$t}}}</li>
+            {{/each}}
+        </script>
+
+        <link rel="stylesheet" href="css/fluffy.min.css">
+        <script src="js/fluffy.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.8/handlebars.min.js"></script>
         <script src="js/app.js"></script>
     </body>
