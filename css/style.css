@@ -282,7 +282,6 @@ body {
 
 #tile-container {
   display: flex;
-  width: 1600px;
   padding-left: 50px;
 }
 
